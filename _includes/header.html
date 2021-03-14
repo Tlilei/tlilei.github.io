@@ -1,0 +1,10 @@
+<header>
+  <div class="container">
+    <h1>{{ site.title }}</h1>
+    <nav>
+      {% for menu in site.menu -%}
+      <a href="{{ site.baseurl }}{{ menu.url }}">{{ menu.title }}</a>
+      {% endfor -%}
+    </nav>
+  </div>
+</header>

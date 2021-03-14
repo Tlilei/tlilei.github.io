@@ -1,0 +1,62 @@
+.page {
+  margin: 5% 10% 2% 10%;
+}
+
+.list-post {
+    border-radius: 4px;
+    margin-bottom:20px;
+    border: 1px solid #ddd;
+}
+
+.list-post .create-year {
+    font-weight: normal;
+    padding: 5px 15px;
+}
+
+.list-post .post-title {
+    padding: 15px 25px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.list-post .post-title:hover {
+  background-color: #eee;
+}
+
+.list-post .post-title:first-child {
+    border-top: 1px solid #ddd;
+}
+
+.post-title .date {
+    font-size: 16px;
+    color: #a9a9a9;
+    margin-bottom: 2px;
+}
+
+.post-title a {
+    display: inline-block;
+    color: #2a6496;
+    font-size: 20px;
+}
+
+.list-category h2 {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 0;
+}
+.list-category div {
+  padding: 8px 0 8px 10px;
+}
+.list-category div a {
+  margin: 4px 6px;
+  white-space: nowrap;
+  font-size: 15px;
+  display: inline-block;
+  border-bottom: 1px solid #333333;
+}
+
+@media screen and (max-width: 560px) {
+  .page{
+    margin: 4% 2% 2% 2%;
+  }
+}
