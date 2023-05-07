@@ -28,14 +28,14 @@
 }
 
 .post-title .date {
-  display: inline-block;
-    font-size: 80%;
+    display: block;
+    font-size: 15px;
     color: darkgray;
     margin-bottom: 2px;
 }
 
 .post-title a {
-    display: block;
+    display: inlie-block;
     color: #428bca;
     font-size: 21px;
 }
