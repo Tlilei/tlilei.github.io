@@ -35,7 +35,7 @@
 }
 
 .post-title a {
-    display: inlie-block;
+    display: inline-block;
     color: #428bca;
     font-size: 21px;
 }
