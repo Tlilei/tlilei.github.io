@@ -28,7 +28,7 @@
 }
 
 .post-title .date {
-    font-size: 16px;
+    font-size: 80%;
     color: #a9a9a9;
     margin-bottom: 2px;
 }
@@ -36,7 +36,7 @@
 .post-title a {
     display: inline-block;
     color: #2a6496;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .list-category h2 {
