@@ -60,7 +60,7 @@ svg {
 }
 pre,
 code {
-  font-family: inherit;
+  font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
 }
 input:-webkit-autofill {
   /* 自动填充的文本颜色 */
