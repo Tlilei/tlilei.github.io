@@ -13,10 +13,10 @@ html {
   text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family:STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
 }
 body {
   margin: 0;
+  font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -42,7 +42,6 @@ blockquote {
   margin: 0;
 }
 a {
-  color: inherit;
   text-decoration: none;
 }
 input,
