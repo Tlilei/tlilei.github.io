@@ -1,10 +1,10 @@
 encoding: utf-8
 
 # SEO相关信息
-title: Dubbo-Dev
-description: dubbodev Blog
+title: CoderWielder
+description: coderwielder Blog
 keywords: Blog,Java,Html,JavaScript,Code,
-author: dubbo
+author: coderwilder
 footerText: 'Host By GitHub'
 
 # 这些不要动
@@ -16,7 +16,7 @@ exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.
 
 # 域名配置
 # baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
-# domainUrl: 'https://dubbodev.github.io/'
+# domainUrl: 'https://coderwielder.github.io/'
 baseurl: ''
 
 # 菜单
