@@ -16,7 +16,9 @@ html {
 }
 body {
   margin: 0;
-  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;;
+  font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei,
+    "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
+  font-size: 21px;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -44,7 +46,8 @@ blockquote {
 
 a {
   text-decoration: none;
-  font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
+  font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei,
+    "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
 }
 input,
 select,
@@ -61,7 +64,8 @@ svg {
 }
 pre,
 code {
-  font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
+  font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO",
+    Proggy, monospace;
 }
 input:-webkit-autofill {
   /* 自动填充的文本颜色 */
@@ -100,7 +104,7 @@ input:-webkit-autofill {
   position: relative;
 }
 .hover-underline:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 1px;
@@ -119,7 +123,7 @@ input:-webkit-autofill {
 /*header css*/
 header {
   color: #777;
-  border-bottom: 1px solid  #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
 }
 .container {
   margin-left: auto;
@@ -140,12 +144,11 @@ nav a {
   line-height: 50px;
   padding: 0 15px;
   color: #777;
-  text-shadow: 0 1px 0 rgba(255,255,255,.25);
- 
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
 nav a:hover {
-box-shadow: inset 20px 20px 60px #eee;
+  box-shadow: inset 20px 20px 60px #eee;
 }
 
 .footer {
@@ -194,7 +197,7 @@ box-shadow: inset 20px 20px 60px #eee;
   transform: translate(-50%, 16%) rotate(45deg);
 }
 @media screen and (max-width: 560px) {
-  body{
+  body {
     font-size: 32px;
   }
   header {
@@ -211,7 +214,7 @@ box-shadow: inset 20px 20px 60px #eee;
   }
   header nav {
     float: right;
-}
+  }
   header nav a {
     font-size: 15px;
     line-height: 20px;
